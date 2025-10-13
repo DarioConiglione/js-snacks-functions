@@ -5,6 +5,24 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+let initialLet = []
+
+
+function nameList() {
+
+    for (let i = 0; i < names.length; i++) {
+        let getInitial = names[i];
+        initialLet.push(getInitial[0])
+        }
+    return initialLet
+
+}
+
+
+console.log(nameList(names))
+
+
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
