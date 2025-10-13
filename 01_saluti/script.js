@@ -4,10 +4,15 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
+function string(name) {
+    return "Ciao " + name;   
+}
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
-
+string()
+console.log(string("Dario"))
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
