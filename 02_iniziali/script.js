@@ -28,4 +28,6 @@ console.log(nameList(names))
 
 
 
+
+
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

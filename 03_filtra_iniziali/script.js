@@ -4,6 +4,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+const newArray = []
+
+function firstLetter(letter) {
+
+    if (letter === names[0]) {
+        newArray.push(names)
+      }     
+
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
@@ -11,3 +20,5 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
+
+
