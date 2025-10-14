@@ -10,12 +10,16 @@ function firstLetter(letter) {
 
     if (letter === names[0]) {
         newArray.push(names)
-      }     
+      }   
+    
+    return newArray
 
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
+firstLetter("A")
+console.log(firstLetter("A"));
 
 
 
