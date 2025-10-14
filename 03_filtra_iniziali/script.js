@@ -8,18 +8,20 @@ const newArray = []
 
 function firstLetter(letter) {
 
-    if (letter === names[0]) {
-        newArray.push(names)
-      }   
-    
-    return newArray
+  for (let i = 0; i < names.length; i++) {
+    const name = names[i];
+    if (name[0] === letter) {
+      newArray.push(name)
+    };
+
+    return newArray;
+
+  }
 
 }
 
 
 // Invoca la funzione qui e stampa il risultato in console
-firstLetter("A")
-console.log(firstLetter("A"));
 
 
 
